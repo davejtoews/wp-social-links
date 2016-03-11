@@ -16,7 +16,7 @@ function social_link($atts, $content = null) {
 	$a = shortcode_atts( array(
 	    'service' => null,
 	    'url' => null,
-	    'color' = 'ffffff'
+	    'color' => 'ffffff'
 	), $atts );
 
 	$icon_file = array(
